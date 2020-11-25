@@ -1,11 +1,11 @@
+stipendi = []
 run = True
 while run == True:
-    stipendio = int(input("stipendio del dipendente: "))
-    stipendi = []
+    stipendio = int(input("immettere lo stipendio del dipendente: "))
     if stipendio == -1:
-        run == True
+        run = False
     else:
-        stipendi += stipendio
+        stipendi.append(stipendio)
 media = 0
 counter = 0
 for i in stipendi:
