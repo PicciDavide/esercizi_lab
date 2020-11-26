@@ -9,4 +9,4 @@ while run == True:
 counter = 0
 for i in veicoli:
     counter += i
-print(counter)
+print(counter,"veicoli totali nell'ultimo periodo")
