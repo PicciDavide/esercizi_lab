@@ -12,4 +12,4 @@ for i in stipendi:
     media += i
     counter += 1
 media = media/counter
-print(media)
+print("La media degli stipendi è", media)
