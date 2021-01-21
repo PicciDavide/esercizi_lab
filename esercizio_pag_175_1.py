@@ -6,8 +6,7 @@ print(elenco_ita,"s")
 
 for i in elenco:
     for item in elenco_ita:
-        if item[1] = 
-    print("Traduci", giorno, "in inglese: ")
-    giorno_ingl = input()
-    giorni_ita[giorno] = giorno_ingl
-print(giorni_ita.items())
+        if item[1] == i:
+            print("Traduci", item[0], "in inglese: ")
+            giorni_ita[item[0]] = input()
+print(sorted(giorni_ita.items()))
