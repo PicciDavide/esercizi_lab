@@ -1,1 +1,1 @@
-print("Ricordati di uscire dall'account")
+print("Uscirò dall'account")
